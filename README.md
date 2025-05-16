@@ -100,9 +100,9 @@ For working with API I used Postman.
 
 ### Frontend Setup
 
-1. **Navigate to the `dash` directory:**
+1. **Navigate to the `dashboard` directory:**
    ```bash
-   cd dash
+   cd dashboard
    ```
 
 2. **Install dependencies:**
