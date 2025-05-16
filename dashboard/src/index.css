@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+}
+
+p, span, a, li, div {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #00d1b2;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #e0e0e0;
+}
+
+.container {
+  padding: 20px;
+}
+
+.MuiAppBar-root {
+  background-color: #00d1b2 !important;
+}
+
+.MuiButton-containedPrimary {
+  background-color: #00d1b2 !important;
+  color: #fff !important;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.MuiButton-containedSecondary, .MuiButton-containedError {
+  background-color: #ff4d4f !important;
+  color: #fff !important;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.MuiTabs-indicator {
+  background-color: #00d1b2 !important;
+}
+
+.MuiTab-root {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #333 !important;
+}
+
+.MuiTab-root.Mui-selected {
+  color: #00d1b2 !important;
+}
+
+.MuiTableHead-root {
+  background-color: #00d1b2 !important;
+}
+
+.MuiTableCell-head {
+  color: #fff !important;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 16px !important;
+  line-height: 1.5 !important;
+  border-bottom: 2px solid #fff !important;
+  background-color: #00d1b2 !important;
+}
+
+.MuiTableRow-root:nth-of-type(odd) {
+  background-color: #f4f6f8;
+}
+
+.MuiTableRow-root:hover {
+  background-color: #e6f7f5 !important;
+}
+
+.MuiDialogTitle-root {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: #333;
+}
+
+.MuiDialogContent-root {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.MuiDialogActions-root .MuiButton-root {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.MuiInputLabel-root {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #333 !important;
+}
+
+.MuiInputBase-root {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.MuiInputBase-input {
+  color: #333 !important;
+}
+
+.MuiSelect-select {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.MuiCircularProgress-root {
+  color: #00d1b2 !important;
+}
